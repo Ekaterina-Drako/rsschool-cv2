@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;  
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 0;
+  background: white;
+  
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.header {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #272727;
+  color: white;
+}
+
+.layout-column-1{
+  display: inline-block;
+  max-width: 600px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.layout-positioner {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.layout-positioner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header .layout-column-1 {
+  float: left;
+  width: 250px;
+  padding-top:20px;
+  padding-left: 30px;
+}
+
+.header .layout-column-2 {
+  float: right;
+  width: 250px;
+  max-height: 230px;
+  padding-bottom: 10px;
+  background-color: #B2A89F;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+ a {
+  color: white;
+ }
+
+a:active {
+  color: #ffff00; 
+}
+
+.layout-column {
+  display: flex;
+  align-items: baseline;
+  width: 600px;
+  min-height: 150px;
+  margin: 0;
+  box-sizing: content-box;
+  padding: 0;
+}
+
+main {
+  border: solid black 1px;
+  width: 598px;
+}
+
+.features {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: text-top;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.h2-background {
+  text-align: center;
+  background-color: #B2A89F;
+}
+
+.h4-background {
+  text-align: center;
+  background-color: #000;
+} 
+
+.text-about {
+  padding: 10px;
+  text-align: center;
+  border-right: solid #6C646C 2px;
+  line-height: 110%;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-about-2 {
+    padding: 10px;
+    text-align: center;
+    padding: 0;
+    line-height: 110%;
+}
+
+.text-about-3 {
+    padding: 10px;
+    text-align: center;
+    padding: 0;
+    line-height: 110%;
+    border-left: solid #6C646C 2px;
+}
+
+.layout-column-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2A89F;
+    padding: 0;
+    margin: 0;
+}
+
+.text-footer{
+    font-size: 20px;
+}
