@@ -3,7 +3,7 @@
 * kate.19321@gmail.com
 * Kate D.#4770
 ## About myself: ##
-I am 28 years old. I am from Belarus. I live in Minsk. I work as a leading technologist. I want to change the field of activity and learn something new. I want to learn Front-End Development in RSSchool!
+I am 29 years old. I am from Belarus. I live in Minsk. I work as a lead engineer. I want to change my profession and learn something new. I want to learn Front-End.
 ## My strengths: ##
 * Quick learner
 * Diligence
